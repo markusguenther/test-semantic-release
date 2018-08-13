@@ -1,10 +1,10 @@
 {
-  "name": "test-semantic-release",
+  "name": "test4-semantic-release",
   "version": "0.0.0-development",
   "description": "Package to test semantic-release",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once",
     "commit": "git-cz"
@@ -20,6 +20,9 @@
     "url": "https://github.com/markusguenther/test-semantic-release/issues"
   },
   "homepage": "https://github.com/markusguenther/test-semantic-release#readme",
+  "release": {
+    "branch": "next"
+  },
   "devDependencies": {
     "conventional-changelog-eslint": "^3.0.0",
     "cz-adapter-eslint": "^0.1.2",
