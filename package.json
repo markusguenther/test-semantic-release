@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/markusguenther/test-semantic-release#readme",
   "devDependencies": {
-    "semantic-release": "^15.9.8"
+    "semantic-release": "^15.9.8",
+    "travis-deploy-once": "^5.0.2"
   }
 }
