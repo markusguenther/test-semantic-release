@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "commit": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,18 @@
   },
   "homepage": "https://github.com/markusguenther/test-semantic-release#readme",
   "devDependencies": {
+    "conventional-changelog-eslint": "^3.0.0",
+    "cz-adapter-eslint": "^0.1.2",
     "semantic-release": "^15.9.8",
     "travis-deploy-once": "^5.0.2"
+  },
+  "dependencies": {
+    "commitizen": "^2.10.1",
+    "global": "^4.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-adapter-eslint"
+    }
   }
 }
