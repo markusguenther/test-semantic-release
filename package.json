@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/markusguenther/test-semantic-release#readme",
   "release": {
-    "branch": "master"
+    "branch": "master",
+    "analyzeCommits": {
+      "preset": "eslint"
+    }
   },
   "devDependencies": {
     "conventional-changelog-eslint": "^3.0.0",
