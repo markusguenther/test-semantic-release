@@ -1,5 +1,5 @@
 {
-  "name": "test4-semantic-release",
+  "name": "@friendsofreactjs/test4-semantic-release",
   "version": "0.0.0-development",
   "description": "Package to test semantic-release",
   "main": ".src/index.js",
